@@ -6,7 +6,7 @@ public class Mentoria extends Conteudo{
     private LocalDate date;
 
     @Override
-    public double calcularXP() {
+    public double calcularXp() {
         return XP_PADRAO + 20;
     }
 

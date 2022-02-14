@@ -4,7 +4,7 @@ public class Curso extends  Conteudo{
     private int cargaHoraria;
 
     @Override
-    public double calcularXP() {
+    public double calcularXp() {
         return XP_PADRAO * cargaHoraria;
     }
 
